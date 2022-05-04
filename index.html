@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt - BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+
+<body>
+    <h1>CODIFICAR E DECODIFICAR</h1>
+  
+<main>
+  <div class="container1">
+
+
+  <p>Selecione uma opção:</p>
+   <form action="">
+
+   <select id="selecao" name="selecao">
+    <option value="0" disabled selected>Escolha um método:</option>
+    <option id="cif" value="1">Cifra de César</option>
+    <option id="base" value="2">Base64</option>
+   </select>
+  
+   <input placeholder= "Valor do incremento" id='passo' type="number">
+
+    <div class="botaoradio" id="botaoradio">
+      <input class="btn" type="radio" id="codificar" name="drone">
+      <label for="codificar">Codificar</label>
+    
+      <input class="btn" type="radio" id="decodificar" name="drone">
+      <label for="decodificar">Decodificar</label>
+    </div>
+
+  <div class="botao" id="botao">
+    <input value="enviar" id="enviar" class="enviar" type="submit">
+   </div>
+
+  </form>
+
+<div class="text" id="text">
+<textarea id="msg" name="texto" rows="10" cols="50" placeholder="DIGITE SEU TEXTO AQUI!"></textarea><br>
+<textarea id="msg2" name="texto" rows="10" cols="50"placeholder="RESULTADO!!!"></textarea>
+
+</div>
+</main>
+
+<script src="./index.js"></script>  
+
+</body>
+</html>

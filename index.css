@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+    color: #ffffffdd;
+    background-color: black;
+    border-radius: 50px;
+    width: 600px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+} 
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(./img/Design\ sem\ nome.png);
+    background-size: cover;
+    
+    
+}
+#msg2{
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+
+}
+fieldset{
+    display: flex;
+    align-content: center;
+    background-color:black;
+    border-color: black;
+    
+}
+p{
+    text-align: center;
+    color: #ffffffdd;
+    font-size: 20px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+.botao{
+    text-align: center;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: #ffffffdd;
+    font-size: 20px;
+
+}
+#msg{
+    border-radius: 50px;
+    padding: 20px;
+}
+#passo{
+    display: none;
+
+}
