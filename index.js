@@ -47,7 +47,7 @@ function baseDecodificar(){
   var msg2 = document.querySelector("#msg2")
 
     if(selecao.value =="2" && botaoDecodificar.checked){
-        valor = msg.value
+        valor = msg2.value
         msg2.value = atob(valor)
 
     }else if(selecao.value == "1" && botaoDecodificar.checked){
