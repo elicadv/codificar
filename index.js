@@ -95,13 +95,13 @@ function cesarDecodificar() {
     if (tabela >= 65 && tabela <= 90) {
       var soma = tabela - passin;
       if (soma < 65) {
-        soma = 90 + soma - 64;
+        soma = soma - 26;
       }
       resultado += String.fromCharCode(soma);
     } else if (tabela >= 97 && tabela <= 122) {
       var soma = tabela - passin;
       if (soma < 97) {
-        soma = 122 + soma - 96;
+        soma = soma - 26;
       }
       resultado += String.fromCharCode(soma);
     } else {
